@@ -25,6 +25,16 @@ class _StoryPageState extends State<StoryPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Colors.lightBlue[900],
+        title: Text(
+          'DESTINI',
+          style: TextStyle(
+            fontSize: 25.0,
+          ),
+        ),
+      ),
       body: Container(
         //TODO: Step 1 - Add background.png to this Container as a background image.
 
